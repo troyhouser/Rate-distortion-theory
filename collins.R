@@ -93,8 +93,6 @@ for(sub in 1:length(subs)){
   }
 }
 
-pracma::interp1(Rarr[1,,1],Varr[1,,1],R_dat[,1])
-
 
 plot(Rarr[,,1],Varr[,,1],ylim=c(0.25,1.2),xlim=c(0,0.9),type="l")
 lines(Rarr[,,2],Varr[,,2])
